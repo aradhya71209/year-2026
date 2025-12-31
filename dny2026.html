@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tap to Open 💙</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Hearts -->
+<span class="heart" style="left:10%; animation-duration:8s;">💙</span>
+<span class="heart" style="left:30%; animation-duration:10s;">💙</span>
+<span class="heart" style="left:50%; animation-duration:7s;">💙</span>
+<span class="heart" style="left:70%; animation-duration:9s;">💙</span>
+<span class="heart" style="left:90%; animation-duration:11s;">💙</span>
+
+<!-- Tap Screen -->
+<div class="tap-screen" onclick="openGift()"> 
+<div class="tap-text"><h1>💙 Tap to Open 💙</h1><break> 
+<p style="width: 180px; margin: auto; font-size: 15px; opacity: 0.8;"> 
+surprise is loading... </p>
+ </div>
+ </div>
+
+<!-- Card -->
+<div class="card">
+  <img src="dny.jpg" alt="New Year Image">
+  <h2>Happy New Year 2025 💙</h2>
+  <p>
+    May your year be filled with joy,<br>
+    success, and beautiful moments 💙
+  </p>
+  <p class="magic">Just like Doraemon's magic ✨</p>
+  <div class="footer">Made with 💙 by Aradhya</div>
+</div>
+
+<script>
+function openGift() {
+  document.querySelector('.tap-screen').classList.add('hide');
+}
+</script>
+
+</body>
+</html>
